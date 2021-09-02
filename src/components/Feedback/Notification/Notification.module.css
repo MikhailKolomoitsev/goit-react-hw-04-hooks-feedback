@@ -1,0 +1,9 @@
+.notificationBox {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(250, 201, 173);
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
