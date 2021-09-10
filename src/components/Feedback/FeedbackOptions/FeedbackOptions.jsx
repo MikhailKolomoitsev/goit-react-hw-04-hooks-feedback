@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { controls, button } from "./FeedbackOptions.module.css";
 
-const FeedbackOptions = ({ option, onLeaveFeedback, id, name }) => (
+const FeedbackOptions = ({ onLeaveFeedback, id, name }) => (
   <div className={controls}>
     
       <button
-        type="button"
+      type="button"
         className={button}
         name={name}
         onClick={onLeaveFeedback}
@@ -19,7 +19,6 @@ const FeedbackOptions = ({ option, onLeaveFeedback, id, name }) => (
 
 // eslint-disable-next-line react/no-typos
 FeedbackOptions.propTypes  = {
-  option: PropTypes.number.isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
   id: PropTypes.string.isRequired,
   name: PropTypes.string,

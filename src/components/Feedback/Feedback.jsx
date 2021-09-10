@@ -40,19 +40,16 @@ setBad(bad+1)
         <FeedbackOptions
           name={'good'}
           id={shortid.generate()}
-          option={good}
           onLeaveFeedback={handleGood}
         />
         <FeedbackOptions
           name={'neutral'}
           id={shortid.generate()}
-          option={neutral}
           onLeaveFeedback={handleNeutral}
         />
         <FeedbackOptions
           name={'bad'}
           id={shortid.generate()}
-          option={bad}
           onLeaveFeedback={handleBad}
         />
 
